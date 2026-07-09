@@ -1,0 +1,11 @@
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\bin\Debug\net9.0\EnterpriseAI.Domain.deps.json
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\bin\Debug\net9.0\EnterpriseAI.Domain.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\bin\Debug\net9.0\EnterpriseAI.Domain.pdb
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.AssemblyInfoInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.AssemblyInfo.cs
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.csproj.CoreCompileInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\refint\EnterpriseAI.Domain.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.pdb
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\ref\EnterpriseAI.Domain.dll

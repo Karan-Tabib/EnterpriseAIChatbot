@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "EnterpriseAI.Application/1.0.0": {
+        "dependencies": {
+          "EnterpriseAI.Contracts": "1.0.0",
+          "EnterpriseAI.Domain": "1.0.0",
+          "EnterpriseAI.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "EnterpriseAI.Application.dll": {}
+        }
+      },
+      "EnterpriseAI.Contracts/1.0.0": {
+        "runtime": {
+          "EnterpriseAI.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EnterpriseAI.Domain/1.0.0": {
+        "runtime": {
+          "EnterpriseAI.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EnterpriseAI.SharedKernel/1.0.0": {
+        "runtime": {
+          "EnterpriseAI.SharedKernel.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EnterpriseAI.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnterpriseAI.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnterpriseAI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnterpriseAI.SharedKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

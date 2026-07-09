@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3k3+uVdgDtew730wFGUGRSKx7Bk6FD0xaq2gnQOfcMc=",
+  "Source": "EnterpriseAI.Api",
+  "BasePath": "_content/EnterpriseAI.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

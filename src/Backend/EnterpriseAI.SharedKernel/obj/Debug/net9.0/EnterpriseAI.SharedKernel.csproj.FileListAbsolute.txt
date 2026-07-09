@@ -1,0 +1,11 @@
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\bin\Debug\net9.0\EnterpriseAI.SharedKernel.deps.json
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\bin\Debug\net9.0\EnterpriseAI.SharedKernel.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\bin\Debug\net9.0\EnterpriseAI.SharedKernel.pdb
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\EnterpriseAI.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\EnterpriseAI.SharedKernel.AssemblyInfoInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\EnterpriseAI.SharedKernel.AssemblyInfo.cs
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\EnterpriseAI.SharedKernel.csproj.CoreCompileInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\EnterpriseAI.SharedKernel.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\refint\EnterpriseAI.SharedKernel.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\EnterpriseAI.SharedKernel.pdb
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.SharedKernel\obj\Debug\net9.0\ref\EnterpriseAI.SharedKernel.dll

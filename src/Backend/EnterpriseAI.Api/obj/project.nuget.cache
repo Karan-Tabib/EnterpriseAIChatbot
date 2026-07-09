@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UNrupXqx28g=",
+  "success": true,
+  "projectFilePath": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tabib\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\tabib\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
