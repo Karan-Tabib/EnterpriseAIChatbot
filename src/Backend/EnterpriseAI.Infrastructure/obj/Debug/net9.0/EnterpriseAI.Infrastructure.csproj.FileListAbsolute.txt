@@ -19,3 +19,5 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Infrastructure\obj\De
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Infrastructure\obj\Debug\net9.0\refint\EnterpriseAI.Infrastructure.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Infrastructure\obj\Debug\net9.0\EnterpriseAI.Infrastructure.pdb
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Infrastructure\obj\Debug\net9.0\ref\EnterpriseAI.Infrastructure.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Infrastructure\bin\Debug\net9.0\EnterpriseAI.Infrastructure.runtimeconfig.json
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Infrastructure\obj\Debug\net9.0\EnterpriseAI.Infrastructure.genruntimeconfig.cache

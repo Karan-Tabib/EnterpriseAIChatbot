@@ -7,9 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EnterpriseAI.Contracts\EnterpriseAI.Contracts.csproj" />
     <ProjectReference Include="..\EnterpriseAI.Domain\EnterpriseAI.Domain.csproj" />
     <ProjectReference Include="..\EnterpriseAI.SharedKernel\EnterpriseAI.SharedKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Conversations\DeleteConversation\" />
+    <Folder Include="Conversations\RenameConversation\" />
+    <Folder Include="Conversations\ListConversations\" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,7 @@
 
+using EnterpriseAI.Application;
+using EnterpriseAI.Infrastructure.ExtensionsRegistration;
+
 namespace EnterpriseAI.Api
 {
     public class Program
@@ -8,6 +11,21 @@ namespace EnterpriseAI.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            builder.Services.AddCors(option =>
+            {
+                option.AddPolicy("freepolicy",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+
+                    });
+            });
+
+            builder.Services.AddApplication(builder.Configuration);
+            builder.Services.AddInfrastructure(builder.Configuration);
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -21,6 +39,7 @@ namespace EnterpriseAI.Api
                 app.MapOpenApi();
             }
 
+            app.UseCors("freepolicy");
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

@@ -13,4 +13,31 @@
     <ProjectReference Include="..\EnterpriseAI.SharedKernel\EnterpriseAI.SharedKernel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AI\Agents\" />
+    <Folder Include="AI\Chat\" />
+    <Folder Include="AI\DependencyInjection\" />
+    <Folder Include="AI\Memory\" />
+    <Folder Include="AI\Models\" />
+    <Folder Include="AI\Options\" />
+    <Folder Include="AI\PromptTemplates\" />
+    <Folder Include="AI\Providers\" />
+    <Folder Include="AI\RAG\" />
+    <Folder Include="AI\Services\" />
+    <Folder Include="Persistence\Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>

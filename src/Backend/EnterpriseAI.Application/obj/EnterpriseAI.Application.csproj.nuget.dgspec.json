@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\tabib\\.nuget\\packages\\",
         "outputPath": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -60,6 +61,46 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.17, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.9, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "FluentValidation": "12.1.1",
+            "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+            "MediatR": "14.2.0",
+            "Microsoft.AspNetCore.OpenApi": "9.0.0",
+            "Microsoft.EntityFrameworkCore": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.17",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Swashbuckle.AspNetCore": "9.0.6"
+          },
           "imports": [
             "net461",
             "net462",
@@ -89,6 +130,7 @@
         "packagesPath": "C:\\Users\\tabib\\.nuget\\packages\\",
         "outputPath": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -130,6 +172,19 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "FluentValidation": "12.1.1",
+            "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+            "MediatR": "14.2.0",
+            "Microsoft.AspNetCore.OpenApi": "9.0.0",
+            "Microsoft.EntityFrameworkCore": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.17",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Swashbuckle.AspNetCore": "9.0.6"
+          },
           "imports": [
             "net461",
             "net462",
@@ -159,6 +214,7 @@
         "packagesPath": "C:\\Users\\tabib\\.nuget\\packages\\",
         "outputPath": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -196,6 +252,19 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "FluentValidation": "12.1.1",
+            "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+            "MediatR": "14.2.0",
+            "Microsoft.AspNetCore.OpenApi": "9.0.0",
+            "Microsoft.EntityFrameworkCore": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.17",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Swashbuckle.AspNetCore": "9.0.6"
+          },
           "imports": [
             "net461",
             "net462",
@@ -225,6 +294,7 @@
         "packagesPath": "C:\\Users\\tabib\\.nuget\\packages\\",
         "outputPath": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -262,6 +332,19 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "FluentValidation": "12.1.1",
+            "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+            "MediatR": "14.2.0",
+            "Microsoft.AspNetCore.OpenApi": "9.0.0",
+            "Microsoft.EntityFrameworkCore": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.17",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.17",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Swashbuckle.AspNetCore": "9.0.6"
+          },
           "imports": [
             "net461",
             "net462",
