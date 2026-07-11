@@ -30,8 +30,10 @@ namespace EnterpriseAI.Infrastructure.ExtensionsRegistration
 
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
+            services.AddScoped<IMessagesRepository, MessagesRepository>();
             services.AddScoped<IConversationRepository, ConversationRepository>();
             services.AddScoped<IConversationQueryRepository, ConversationQueryRepository>();
+            //services.AddScoped<IConversationMessageQueryRepository, ConversationQueryMessageRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }

@@ -9,11 +9,6 @@ namespace EnterpriseAI.Application.Conversations.StartConversation
         {
 
         }
-
-        public bool Validate(StartConversationCommand command)
-        {
-           
-            return true;
-        }
+        
     }
 }

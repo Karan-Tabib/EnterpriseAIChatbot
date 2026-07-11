@@ -5,6 +5,7 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.AssemblyInfoInputs.cache
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.AssemblyInfo.cs
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.csproj.CoreCompileInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.sourcelink.json
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\refint\EnterpriseAI.Domain.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Domain\obj\Debug\net9.0\EnterpriseAI.Domain.pdb

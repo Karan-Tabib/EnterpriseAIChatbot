@@ -10,6 +10,8 @@
         public string Content { get; private set; } 
 
         public DateTime CreatedOn { get; private set; }
+
+
         public Message(string content)
         {
             Id = Guid.NewGuid();

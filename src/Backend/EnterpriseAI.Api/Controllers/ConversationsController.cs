@@ -1,10 +1,12 @@
-﻿using EnterpriseAI.Application.Conversations.GetConversation;
+﻿using EnterpriseAI.Application.Conversations.DeleteConversation;
+using EnterpriseAI.Application.Conversations.GetConversation;
+using EnterpriseAI.Application.Conversations.GetConversationMessages;
+using EnterpriseAI.Application.Conversations.RenameConversation;
+using EnterpriseAI.Application.Conversations.SendMessage;
 using EnterpriseAI.Application.Conversations.StartConversation;
 using EnterpriseAI.Contracts.Chat;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading;
 
 namespace EnterpriseAI.Api.Controllers
 {
@@ -37,5 +39,47 @@ namespace EnterpriseAI.Api.Controllers
 
             return Ok(result);
         }
+
+        [HttpPost("{conversationId:guid}/messages")]
+        public async Task<IActionResult> SendMessage(Guid conversationId, [FromBody] ChatRequest request, CancellationToken token)
+        {
+            // Logic to create a new Message
+
+            var result = await _mediator.Send(new SendMessageCommand(conversationId, request.Content), token);
+
+            return Ok(result);
+
+        }
+
+
+        [HttpGet("{conversationId:guid}/messages")]
+        public async Task<IActionResult> GetMessages(Guid conversationId, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new GetConversationMessagesQuery(conversationId), cancellationToken);
+
+            return Ok(result);
+        }
+
+
+        [HttpPut("{conversationId:guid}/rename/{title}")]
+        public async Task<IActionResult> RenameTitle(Guid conversationId,string title, 
+            CancellationToken cancellationToken)
+        {
+            var result =await _mediator.Send(new RenameConversationCommand(conversationId, title), cancellationToken);
+            return Ok(result);
+        }
+
+        [HttpDelete("{conversationId:guid}")]
+        public async Task<IActionResult> DeleteConversation(
+             Guid conversationId,
+             CancellationToken cancellationToken)
+        {
+             await _mediator.Send(new DeleteConversationCommand(conversationId));
+
+            return NoContent();
+        }
+
+
+        
     }
 }

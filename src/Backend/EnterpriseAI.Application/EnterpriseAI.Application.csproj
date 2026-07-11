@@ -21,8 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Conversations\DeleteConversation\" />
-    <Folder Include="Conversations\RenameConversation\" />
     <Folder Include="Conversations\ListConversations\" />
   </ItemGroup>
 

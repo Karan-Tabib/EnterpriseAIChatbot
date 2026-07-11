@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using MediatR;
 
 namespace EnterpriseAI.Application.Conversations.GetConversation
 {
