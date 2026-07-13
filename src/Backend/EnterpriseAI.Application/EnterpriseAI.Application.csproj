@@ -10,6 +10,7 @@
     <PackageReference Include="FluentValidation" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
     <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
   </ItemGroup>
@@ -21,7 +22,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="AI\Models\" />
+    <Folder Include="AI\Exception\" />
+    <Folder Include="AI\Providers\" />
+    <Folder Include="AI\Prompts\" />
     <Folder Include="Conversations\ListConversations\" />
+    <Folder Include="Observability\Metrics\" />
+    <Folder Include="Observability\Tracing\" />
   </ItemGroup>
 
 </Project>

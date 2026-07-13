@@ -1,4 +1,5 @@
 ﻿using EnterpriseAI.Application.Abstractions.Persistence.Repositories;
+using EnterpriseAI.Application.Exceptions.Conversions;
 using MediatR;
 
 namespace EnterpriseAI.Application.Conversations.GetConversation
@@ -20,8 +21,7 @@ namespace EnterpriseAI.Application.Conversations.GetConversation
 
             if (conversation is null)
             {
-                throw new KeyNotFoundException(
-                    $"Conversation '{request.ConversationId}' was not found.");
+                throw new ConversationNotFoundException(request.ConversationId);
             }
 
             return new GetConversationResult

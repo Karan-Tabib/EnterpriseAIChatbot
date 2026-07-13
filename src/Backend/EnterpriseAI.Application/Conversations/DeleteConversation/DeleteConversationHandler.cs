@@ -1,5 +1,6 @@
 ﻿using EnterpriseAI.Application.Abstractions.Persistence.Repositories;
 using EnterpriseAI.Application.Conversations.SendMessage;
+using EnterpriseAI.Application.Exceptions.Conversions;
 using MediatR;
 
 namespace EnterpriseAI.Application.Conversations.DeleteConversation
@@ -23,7 +24,7 @@ namespace EnterpriseAI.Application.Conversations.DeleteConversation
                cancellationToken);
 
             if (conversation is null)
-                throw new KeyNotFoundException("Conversation not be Deleted.");
+                throw new ConversationNotDeletedException(request.ConversationId);
 
 
             await _unitOfWork.CommitAsync(cancellationToken);

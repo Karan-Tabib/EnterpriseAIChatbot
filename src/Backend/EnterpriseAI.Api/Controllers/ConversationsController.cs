@@ -4,7 +4,7 @@ using EnterpriseAI.Application.Conversations.GetConversationMessages;
 using EnterpriseAI.Application.Conversations.RenameConversation;
 using EnterpriseAI.Application.Conversations.SendMessage;
 using EnterpriseAI.Application.Conversations.StartConversation;
-using EnterpriseAI.Contracts.Chat;
+using EnterpriseAI.Application.AI.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -62,24 +62,22 @@ namespace EnterpriseAI.Api.Controllers
 
 
         [HttpPut("{conversationId:guid}/rename/{title}")]
-        public async Task<IActionResult> RenameTitle(Guid conversationId,string title, 
+        public async Task<IActionResult> RenameTitle(Guid conversationId, string title,
             CancellationToken cancellationToken)
         {
-            var result =await _mediator.Send(new RenameConversationCommand(conversationId, title), cancellationToken);
+            var result = await _mediator.Send(new RenameConversationCommand(conversationId, title), cancellationToken);
             return Ok(result);
         }
 
         [HttpDelete("{conversationId:guid}")]
-        public async Task<IActionResult> DeleteConversation(
-             Guid conversationId,
-             CancellationToken cancellationToken)
+        public async Task<IActionResult> DeleteConversation(Guid conversationId, CancellationToken cancellationToken)
         {
-             await _mediator.Send(new DeleteConversationCommand(conversationId));
+            await _mediator.Send(new DeleteConversationCommand(conversationId));
 
             return NoContent();
         }
 
 
-        
+
     }
 }

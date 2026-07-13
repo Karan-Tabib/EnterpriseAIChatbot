@@ -1,4 +1,9 @@
 
+using EnterpriseAI.Api.Extensions;
+using EnterpriseAI.Api.FailureManagement;
+using EnterpriseAI.Api.Middleware;
+using EnterpriseAI.Api.Options;
+using EnterpriseAI.APi.FailureManagement.Extensions;
 using EnterpriseAI.Application;
 using EnterpriseAI.Infrastructure.ExtensionsRegistration;
 
@@ -24,8 +29,13 @@ namespace EnterpriseAI.Api
                     });
             });
 
+            builder.Services.AddAPIExtensions(builder.Configuration);
             builder.Services.AddApplication(builder.Configuration);
+           
             builder.Services.AddInfrastructure(builder.Configuration);
+
+            builder.Services.Configure<PerformanceLoggingOptions>(
+                builder.Configuration.GetSection(PerformanceLoggingOptions.SectionName));
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -33,6 +43,7 @@ namespace EnterpriseAI.Api
 
             var app = builder.Build();
 
+            app.UseExceptionHandler();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -42,6 +53,7 @@ namespace EnterpriseAI.Api
             app.UseCors("freepolicy");
             app.UseHttpsRedirection();
 
+            app.UseMiddleware<CorrelationMiddleware>();
             app.UseAuthorization();
 
 

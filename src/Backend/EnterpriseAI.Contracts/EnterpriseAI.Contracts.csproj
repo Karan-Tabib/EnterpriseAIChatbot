@@ -10,4 +10,8 @@
     <ProjectReference Include="..\EnterpriseAI.SharedKernel\EnterpriseAI.SharedKernel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Chat\" />
+  </ItemGroup>
+
 </Project>

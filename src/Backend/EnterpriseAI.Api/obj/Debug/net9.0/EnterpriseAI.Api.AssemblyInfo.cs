@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnterpriseAI.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+281607c6cbc094dc7870bb4650728f826dd9fce8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad472ae9b17d81aa5659d673008a7e6f026e9e8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnterpriseAI.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnterpriseAI.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,20 +14,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AI\Agents\" />
-    <Folder Include="AI\Chat\" />
-    <Folder Include="AI\DependencyInjection\" />
-    <Folder Include="AI\Memory\" />
-    <Folder Include="AI\Models\" />
-    <Folder Include="AI\Options\" />
-    <Folder Include="AI\PromptTemplates\" />
-    <Folder Include="AI\Providers\" />
-    <Folder Include="AI\RAG\" />
-    <Folder Include="AI\Services\" />
+    <Folder Include="AI\Ollama\Agents\" />
+    <Folder Include="AI\Ollama\Chat\" />
+    <Folder Include="AI\Ollama\DependencyInjection\" />
+    <Folder Include="AI\Ollama\Memory\" />
+    <Folder Include="AI\Ollama\Models\" />
+    <Folder Include="AI\Ollama\" />
+    <Folder Include="AI\Ollama\Options\" />
+    <Folder Include="AI\Ollama\PromptTemplates\" />
+    <Folder Include="AI\Ollama\Providers\" />
+    <Folder Include="AI\Ollama\RAG\" />
+    <Folder Include="AI\Ollama\Services\" />
+    <Folder Include="Observability\kafka\" />
     <Folder Include="Persistence\Migrations\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
       <PrivateAssets>all</PrivateAssets>
