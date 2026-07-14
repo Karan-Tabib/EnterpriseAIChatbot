@@ -18,6 +18,11 @@ namespace EnterpriseAI.Infrastructure.Persistence.Configurations
             builder.Property(x => x.Id).ValueGeneratedNever();
             builder.Property(x => x.Title).HasMaxLength(200).IsRequired();
             builder.Property(x => x.CreatedOn).IsRequired();
+            builder.Property(x => x.UpdatedOn).IsRequired();
+            builder.Property(x => x.Status)
+                   .HasConversion<string>()
+                   .HasMaxLength(50)
+                   .IsRequired();
             // builder.HasMany<Message>("_messages").WithOne().HasForeignKey("ConversationId").OnDelete(DeleteBehavior.Cascade);
             //builder.Navigation("_messages").UsePropertyAccessMode(PropertyAccessMode.Field);
             builder.HasMany(x => x.Messages)

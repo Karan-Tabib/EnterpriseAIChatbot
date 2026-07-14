@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnterpriseAI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad472ae9b17d81aa5659d673008a7e6f026e9e8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bb3c0ab33e45c5bb0f9e9a7143f4b12acc6937f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnterpriseAI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnterpriseAI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

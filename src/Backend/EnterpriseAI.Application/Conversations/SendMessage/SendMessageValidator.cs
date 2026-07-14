@@ -8,7 +8,7 @@ namespace EnterpriseAI.Application.Conversations.SendMessage
         public SendMessageValidator()
         {
             RuleFor(x => x.ConversationId).NotEmpty();
-            RuleFor(x => x.Content).NotEmpty().WithMessage("Message content cannot be empty.");
+            RuleFor(x => x.Message).NotEmpty().WithMessage("Message content cannot be empty.");
         }
 
     }

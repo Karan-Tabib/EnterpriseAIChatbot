@@ -12,6 +12,10 @@ using EnterpriseAI.Application.Observability.Context;
 using EnterpriseAI.Application.Observability.Contracts;
 using EnterpriseAI.Application.Observability.Logging.Formatters;
 using EnterpriseAI.Infrastructure.ExceptionHandling;
+using EnterpriseAI.Application.AI.Contracts;
+using EnterpriseAI.Application.AI.Prompting;
+using EnterpriseAI.Infrastructure.AI;
+using EnterpriseAI.Infrastructure.AI.Ollama;
 namespace EnterpriseAI.Infrastructure.ExtensionsRegistration
 {
     public static class InfrastructureExtension
@@ -24,6 +28,7 @@ namespace EnterpriseAI.Infrastructure.ExtensionsRegistration
             AddObservability(services, configuration);
             AddFormatters(services, configuration);
             AddExeceptionTranslator(services, configuration);
+            AddAIOrchestrator(services, configuration);
             return services;
         }
 
@@ -69,7 +74,15 @@ namespace EnterpriseAI.Infrastructure.ExtensionsRegistration
         public static IServiceCollection AddExeceptionTranslator(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IDatabaseExceptionTranslator, SqlServerExceptionTranslator>();
-            
+
+
+            return services;
+        }
+
+        public static IServiceCollection AddAIOrchestrator(this IServiceCollection services, IConfiguration configuration)
+        {
+            //ollama
+            services.AddOllama(configuration);
 
             return services;
         }

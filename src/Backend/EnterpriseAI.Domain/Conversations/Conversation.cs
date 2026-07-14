@@ -15,7 +15,8 @@ namespace EnterpriseAI.Domain
 
         private readonly List<Message> _messages;
 
-        public IReadOnlyCollection<Message> Messages => _messages.AsReadOnly();
+        public ConversationStatus Status { get; private set; }
+        public IReadOnlyCollection<Message> Messages => _messages;
 
 
         private Conversation()
@@ -34,14 +35,16 @@ namespace EnterpriseAI.Domain
 
         public void AddUserMessage(string content)
         {
-            if (content == null || String.IsNullOrWhiteSpace(content))
+            if (string.IsNullOrWhiteSpace(content))
             {
                 throw new ArgumentException("Message content cannot be null or empty.", nameof(content));
             }
-           
-            _messages.Add(Message.CreateUserMessage(content));
+
+            var message = Message.CreateUserMessage(content);
+            _messages.Add(message);
+            message.IncrementSequenceNumber();
         }
-       
+
         public void Rename(string title)
         {
             if (string.IsNullOrWhiteSpace(title))
@@ -57,11 +60,27 @@ namespace EnterpriseAI.Domain
             UpdatedOn = DateTime.UtcNow;
         }
 
-        public void Archive() { }
 
         public void GenerateTitle() { }
-        public void AddAssistantMessage() { }
+        public Message AddAssistantMessage(string content)
+        {
+            if (string.IsNullOrWhiteSpace(content))
+                throw new ArgumentException(nameof(content));
+
+            var message = Message.CreateAssistantMessage(content);
+            _messages.Add(message);
+            message.IncrementSequenceNumber();
+            UpdatedOn = DateTime.UtcNow;
+            return message;
+
+        }
         public void ClearHistory() { }
         public void GenerateSummary() { }
+
+        public void Archive() { }
+
+        public void Restore() { }
+
+        public void Delete() { }
     }
 }

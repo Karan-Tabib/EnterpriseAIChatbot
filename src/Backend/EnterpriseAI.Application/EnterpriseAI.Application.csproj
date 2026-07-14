@@ -22,10 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AI\Models\" />
-    <Folder Include="AI\Exception\" />
-    <Folder Include="AI\Providers\" />
-    <Folder Include="AI\Prompts\" />
+    <Folder Include="AI\Exceptions\" />
+    <Folder Include="AI\Memory\" />
+    <Folder Include="AI\Services\" />
     <Folder Include="Conversations\ListConversations\" />
     <Folder Include="Observability\Metrics\" />
     <Folder Include="Observability\Tracing\" />

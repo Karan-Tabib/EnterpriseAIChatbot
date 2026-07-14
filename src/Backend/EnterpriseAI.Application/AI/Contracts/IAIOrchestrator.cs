@@ -1,5 +1,4 @@
-﻿
-using EnterpriseAI.Application.AI.Models;
+﻿using EnterpriseAI.Application.AI.Models;
 
 namespace EnterpriseAI.Application.AI.Contracts
 {

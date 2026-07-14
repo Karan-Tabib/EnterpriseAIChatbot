@@ -1,4 +1,4 @@
-﻿namespace EnterpriseAI.Application.Abstractions.AI
+﻿namespace EnterpriseAI.Application.AI.Contracts
 {
     public interface IChatCompletionService
     {

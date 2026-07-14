@@ -106,6 +106,7 @@
             "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Microsoft.Extensions.Http": "9.0.0",
             "OpenTelemetry.Api": "1.16.0",
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.16.0",
             "OpenTelemetry.Extensions.Hosting": "1.16.0",
@@ -198,6 +199,7 @@
             "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Microsoft.Extensions.Http": "9.0.0",
             "OpenTelemetry.Api": "1.16.0",
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.16.0",
             "OpenTelemetry.Extensions.Hosting": "1.16.0",
@@ -286,6 +288,7 @@
             "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Microsoft.Extensions.Http": "9.0.0",
             "OpenTelemetry.Api": "1.16.0",
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.16.0",
             "OpenTelemetry.Extensions.Hosting": "1.16.0",
@@ -403,6 +406,11 @@
               "target": "Package",
               "version": "[9.0.17, )",
               "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -418,6 +426,7 @@
             "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Microsoft.Extensions.Http": "9.0.0",
             "OpenTelemetry.Api": "1.16.0",
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.16.0",
             "OpenTelemetry.Extensions.Hosting": "1.16.0",
@@ -506,6 +515,7 @@
             "Microsoft.EntityFrameworkCore.Tools": "9.0.17",
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+            "Microsoft.Extensions.Http": "9.0.0",
             "OpenTelemetry.Api": "1.16.0",
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.16.0",
             "OpenTelemetry.Extensions.Hosting": "1.16.0",

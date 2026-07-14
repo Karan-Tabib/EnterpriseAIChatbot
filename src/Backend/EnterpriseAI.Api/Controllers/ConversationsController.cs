@@ -41,7 +41,7 @@ namespace EnterpriseAI.Api.Controllers
         }
 
         [HttpPost("{conversationId:guid}/messages")]
-        public async Task<IActionResult> SendMessage(Guid conversationId, [FromBody] ChatRequest request, CancellationToken token)
+        public async Task<IActionResult> SendMessage(Guid conversationId, [FromBody] ChatRequestDTO request, CancellationToken token)
         {
             // Logic to create a new Message
 

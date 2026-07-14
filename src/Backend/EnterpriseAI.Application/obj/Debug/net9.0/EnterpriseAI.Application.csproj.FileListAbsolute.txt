@@ -1,9 +1,3 @@
-D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.csproj.AssemblyReference.cache
-D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.GeneratedMSBuildEditorConfig.editorconfig
-D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.AssemblyInfoInputs.cache
-D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.AssemblyInfo.cs
-D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.csproj.CoreCompileInputs.cache
-D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.sourcelink.json
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug\net9.0\EnterpriseAI.Application.deps.json
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug\net9.0\EnterpriseAI.Application.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug\net9.0\EnterpriseAI.Application.pdb
@@ -13,6 +7,12 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug\net9.0\EnterpriseAI.Contracts.pdb
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug\net9.0\EnterpriseAI.Domain.pdb
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\bin\Debug\net9.0\EnterpriseAI.SharedKernel.pdb
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.csproj.AssemblyReference.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.AssemblyInfoInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.AssemblyInfo.cs
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.csproj.CoreCompileInputs.cache
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.sourcelink.json
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\Enterpri.903C935C.Up2Date
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\EnterpriseAI.Application.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Application\obj\Debug\net9.0\refint\EnterpriseAI.Application.dll

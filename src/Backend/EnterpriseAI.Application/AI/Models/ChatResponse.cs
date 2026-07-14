@@ -1,4 +1,4 @@
-﻿ namespace EnterpriseAI.Application.AI.Models
+﻿namespace EnterpriseAI.Application.AI.Models
 {
     public sealed class ChatResponse
     {
@@ -11,6 +11,11 @@
         public int TotalTokens { get; init; }
 
         public string? FinishReason { get; init; }
+        public string? Model { get; init; }
+        public Guid MessageId { get; init; }
+
+        public DateTime CreatedAt { get; init; }
+
     }
 }
 

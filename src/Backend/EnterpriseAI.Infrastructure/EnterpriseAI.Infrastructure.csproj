@@ -16,10 +16,7 @@
   <ItemGroup>
     <Folder Include="AI\Ollama\Agents\" />
     <Folder Include="AI\Ollama\Chat\" />
-    <Folder Include="AI\Ollama\DependencyInjection\" />
     <Folder Include="AI\Ollama\Memory\" />
-    <Folder Include="AI\Ollama\Models\" />
-    <Folder Include="AI\Ollama\" />
     <Folder Include="AI\Ollama\Options\" />
     <Folder Include="AI\Ollama\PromptTemplates\" />
     <Folder Include="AI\Ollama\Providers\" />
@@ -41,6 +38,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Http" />
   </ItemGroup>
 
 </Project>
