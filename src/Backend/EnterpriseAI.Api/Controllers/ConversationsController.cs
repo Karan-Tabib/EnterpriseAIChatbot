@@ -7,6 +7,10 @@ using EnterpriseAI.Application.Conversations.StartConversation;
 using EnterpriseAI.Application.AI.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using EnterpriseAI.Api.Common.Sse;
+using EnterpriseAI.Application.AI;
+using System.Threading;
+using EnterpriseAI.Application.Conversations.StreamMessage;
 
 namespace EnterpriseAI.Api.Controllers
 {
@@ -79,5 +83,21 @@ namespace EnterpriseAI.Api.Controllers
 
 
 
+
+        [HttpPost("{conversationId:guid}/messages/stream")]
+        public async Task StreamMessage(Guid conversationId, [FromBody] ChatRequestDTO request, CancellationToken token)
+        {
+            // Logic to create a new Message
+
+            SseWriter.Configure(Response);
+
+            var stream = await _mediator.Send(new StreamMessageCommand(conversationId, request.Content), token);
+
+            await foreach (var chunk in stream)
+            {
+                await SseWriter.WriteAsync(Response, chunk, token);
+            }
+
+        }
     }
 }

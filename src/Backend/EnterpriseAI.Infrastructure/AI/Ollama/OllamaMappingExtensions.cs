@@ -5,11 +5,11 @@ namespace EnterpriseAI.Infrastructure.AI.Ollama
 {
     public static class OllamaMappingExtensions
     {
-        public static OllamaChatRequest ToOllamaRequest(
-            this ChatRequest request,
+        public static OllamaRequest ToOllamaRequest(
+            this AppChatRequest request,
             string model)
         {
-            return new OllamaChatRequest
+            return new OllamaRequest
             {
                 Model = model,
                 Stream = false,

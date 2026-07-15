@@ -11,9 +11,9 @@ namespace EnterpriseAI.Application.AI.Prompting
         {
             _systemPromptProvider = systemPromptProvider;
         }
-        public ChatRequest Build(Conversation conversation)
+        public AppChatRequest Build(Conversation conversation)
         {
-            var messages = new List<ChatMessage>();
+            var messages = new List<AppChatMessage>();
 
             AddSystemPrompt(messages);
             AddConversationHistory(messages, conversation);
@@ -23,19 +23,19 @@ namespace EnterpriseAI.Application.AI.Prompting
             //AddRetrievedDocuments()
 
             //AddCurrentMessage()
-            return new ChatRequest
+            return new AppChatRequest
             {
                 Messages = messages
             };
         }
 
-        private void AddConversationHistory(List<ChatMessage> messages, Conversation conversation)
+        private void AddConversationHistory(List<AppChatMessage> messages, Conversation conversation)
         {
 
             // Conversation history
             foreach (var message in conversation.Messages)
             {
-                messages.Add(new ChatMessage
+                messages.Add(new AppChatMessage
                 {
                     Role = MapRole(message.Role),
                     Content = message.Content
@@ -43,24 +43,24 @@ namespace EnterpriseAI.Application.AI.Prompting
             }
         }
 
-        private void AddSystemPrompt(List<ChatMessage> messages)
+        private void AddSystemPrompt(List<AppChatMessage> messages)
         {
             // System prompt
-            messages.Add(new ChatMessage
+            messages.Add(new AppChatMessage
             {
-                Role = ChatRole.System,
+                Role = AppChatRole.System,
                 Content = "You are a helpful AI assistant."
             });
         }
 
 
-        private static ChatRole MapRole(MessageRole role)
+        private static AppChatRole MapRole(MessageRole role)
         {
             return role switch
             {
-                MessageRole.User => ChatRole.User,
-                MessageRole.Assistant => ChatRole.Assistant,
-                MessageRole.System => ChatRole.System,
+                MessageRole.User => AppChatRole.User,
+                MessageRole.Assistant => AppChatRole.Assistant,
+                MessageRole.System => AppChatRole.System,
                 _ => throw new InvalidOperationException($"Unsupported role {role}")
             };
         }

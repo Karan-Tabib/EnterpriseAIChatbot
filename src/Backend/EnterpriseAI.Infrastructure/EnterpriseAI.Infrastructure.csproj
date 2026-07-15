@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Folder Include="AI\Ollama\Agents\" />
-    <Folder Include="AI\Ollama\Chat\" />
     <Folder Include="AI\Ollama\Memory\" />
     <Folder Include="AI\Ollama\Options\" />
     <Folder Include="AI\Ollama\PromptTemplates\" />
@@ -38,7 +37,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.AI" />
       <PackageReference Include="Microsoft.Extensions.Http" />
+      <PackageReference Include="OllamaSharp" />
   </ItemGroup>
 
 </Project>

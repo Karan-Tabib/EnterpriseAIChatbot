@@ -1,6 +1,6 @@
 ﻿namespace EnterpriseAI.Application.AI.Models
 {
-    public enum ChatRole
+    public enum AppChatRole
     {
         System,
 

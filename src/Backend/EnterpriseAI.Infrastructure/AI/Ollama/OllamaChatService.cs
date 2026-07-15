@@ -1,62 +1,77 @@
-﻿using System.Net.Http.Json;
+﻿using System.Net.Http;
+using System.Net.Http.Json;
+using System.Runtime.CompilerServices;
+using Confluent.Kafka;
 using EnterpriseAI.Application.AI.Contracts;
 using EnterpriseAI.Application.AI.Models;
-using EnterpriseAI.Infrastructure.AI.Ollama.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+using OllamaSharp;
 
 namespace EnterpriseAI.Infrastructure.AI.Ollama
 {
     public sealed class OllamaChatService : IChatService
     {
-        private readonly HttpClient _httpClient;
+        //private readonly HttpClient _httpClient;
+        private readonly IOllamaApiClient _client;
         private readonly OllamaOptions _options;
         private readonly ILogger<OllamaChatService> _logger;
 
         public OllamaChatService(
-            HttpClient httpClient,
+            //HttpClient httpClient,
+            IOllamaApiClient client,
             IOptions<OllamaOptions> options,
             ILogger<OllamaChatService> logger)
         {
-            _httpClient = httpClient;
+            _client = client;
             _options = options.Value;
             _logger = logger;
         }
 
-        public async Task<ChatResponse> SendAsync(
-            ChatRequest request,
-            CancellationToken cancellationToken)
+        
+        public async Task<AppChatResponse> SendAsync(AppChatRequest request, CancellationToken cancellationToken)
         {
-            _logger.LogInformation("Sending chat request to Ollama. Model: {Model}", _options.Model);
+            /*
+            // Convert Application model -> Ollama model
+            var ollamaRequest = OllamaChatMapper.ToRequest(request);
 
-            // Convert application request -> Ollama request
-            var ollamaRequest = request.ToOllamaRequest(_options.Model);
+             // Call Ollama
+             var httpResponse = await _client.PostAsJsonAsync(
+                "/api/chat",
+                ollamaRequest,
+                cancellationToken);
 
-            // Send request
-            var httpResponse = await _httpClient.PostAsJsonAsync("/api/chat", ollamaRequest, cancellationToken);
 
-            // Throw if status code is not 2xx
             httpResponse.EnsureSuccessStatusCode();
 
-            // Deserialize response
+            // Deserialize
             var ollamaResponse =
-                await httpResponse.Content.ReadFromJsonAsync<OllamaChatResponse>(
-                    cancellationToken: cancellationToken);
+                await httpResponse.Content.ReadFromJsonAsync<OllamaResponse>(cancellationToken: cancellationToken);
 
             if (ollamaResponse is null)
+                throw new InvalidOperationException("Ollama returned an empty response.");
+
+            // Convert Ollama model -> Application model
+            return OllamaChatMapper.ToResponse(ollamaResponse);
+            */
+            return null;
+        }
+        
+
+
+        public async IAsyncEnumerable<AppChatChunk> StreamAsync(AppChatRequest request, 
+                [EnumeratorCancellation] CancellationToken cancellationToken)
+        {
+            var ollamaRequest = OllamaChatMapper.ToRequest(request,true);
+
+            await foreach (var chunk in _client.ChatAsync(ollamaRequest, cancellationToken))
             {
-                throw new InvalidOperationException(
-                    "Received an empty response from Ollama.");
+                yield return OllamaChatMapper.ToChunk(chunk);
             }
-
-            _logger.LogInformation("Received response from Ollama.");
-
-            // Convert Ollama response -> Application response
-            return new ChatResponse
-            {
-                Content = ollamaResponse.Message.Content
-            };
         }
     }
 }
+
+
+

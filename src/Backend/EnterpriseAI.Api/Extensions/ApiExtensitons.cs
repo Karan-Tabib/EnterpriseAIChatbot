@@ -9,9 +9,9 @@ namespace EnterpriseAI.Api.Extensions
         public static IServiceCollection AddAPIExtensions(this IServiceCollection services, IConfiguration configuration)
         {
             services.Configure<PerformanceLoggingOptions>(configuration.GetSection(PerformanceLoggingOptions.SectionName));
+            services.AddSingleton<IPerformanceSettings, PerformanceSettings>();
             
             services.AddFailureManagement();
-            services.AddSingleton<IPerformanceSettings, PerformanceSettings>();
             return services;
         }
     }

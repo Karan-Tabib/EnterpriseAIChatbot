@@ -29,6 +29,8 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.Extensions.AI.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.Extensions.AI.Abstractions.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -51,6 +53,7 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\OllamaSharp.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.ClientModel.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.CodeDom.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Composition.AttributedModel.dll
@@ -63,11 +66,15 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Drawing.Common.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Formats.Asn1.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.IO.Pipelines.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Numerics.Tensors.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Runtime.Caching.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Text.Encodings.Web.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Text.Json.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Threading.Channels.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\System.Windows.Extensions.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -171,6 +178,8 @@ D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Text.Encodings.Web.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\EnterpriseAI.Application.dll
 D:\Demos\AI\EnterpriseAIAssistant\src\Backend\EnterpriseAI.Api\bin\Debug\net9.0\EnterpriseAI.Contracts.dll

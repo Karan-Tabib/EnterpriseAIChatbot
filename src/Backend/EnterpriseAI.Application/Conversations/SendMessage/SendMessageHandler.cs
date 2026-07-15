@@ -23,16 +23,16 @@ namespace EnterpriseAI.Application.Conversations.SendMessage
             //    request.ConversationId,
             //    cancellationToken);
 
-           
-            ChatResponse response = await _AIOrchestrator.GenerateResponseAsync(request.ConversationId,
+
+            AppChatResponse response = await _AIOrchestrator.GenerateResponseAsync(request.ConversationId,
                     request.Message, cancellationToken);
 
             return new SendMessageResult
             {
                 ConversationId = request.ConversationId,
-                MessageId = response.MessageId,
                 Response = response.Content,
-                CreatedAt = response.CreatedAt
+                //MessageId = response.MessageId,
+                //CreatedAt = response.CreatedAt
             };
         }
     }

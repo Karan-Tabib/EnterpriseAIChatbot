@@ -1,5 +1,4 @@
-﻿using EnterpriseAI.Application.Conversations.StartConversation;
-using FluentValidation;
+﻿using FluentValidation;
 
 namespace EnterpriseAI.Application.Conversations.SendMessage
 {

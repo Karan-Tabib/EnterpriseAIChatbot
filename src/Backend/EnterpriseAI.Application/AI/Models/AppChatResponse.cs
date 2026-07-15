@@ -1,6 +1,6 @@
 ﻿namespace EnterpriseAI.Application.AI.Models
 {
-    public sealed class ChatResponse
+    public sealed class AppChatResponse
     {
         public string Content { get; init; } = string.Empty;
 
@@ -12,10 +12,9 @@
 
         public string? FinishReason { get; init; }
         public string? Model { get; init; }
-        public Guid MessageId { get; init; }
-
-        public DateTime CreatedAt { get; init; }
 
     }
+
+
 }
 

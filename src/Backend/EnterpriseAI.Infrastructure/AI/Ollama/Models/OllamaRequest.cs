@@ -1,6 +1,6 @@
 ﻿namespace EnterpriseAI.Infrastructure.AI.Ollama.Models
 {
-    public sealed class OllamaChatRequest
+    public sealed class OllamaRequest
     {
         public string Model { get; set; } = string.Empty;
 

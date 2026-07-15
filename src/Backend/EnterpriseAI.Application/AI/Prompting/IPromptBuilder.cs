@@ -5,7 +5,7 @@ namespace EnterpriseAI.Application.AI.Prompting
 {
     public interface IPromptBuilder
     {
-        ChatRequest Build(Conversation conversation);
+        AppChatRequest Build(Conversation conversation);
     }
 
     public interface ISystemPromptProvider

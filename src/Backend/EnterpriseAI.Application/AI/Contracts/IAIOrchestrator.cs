@@ -4,7 +4,8 @@ namespace EnterpriseAI.Application.AI.Contracts
 {
     public interface IAIOrchestrator
     {
-        Task<ChatResponse> GenerateResponseAsync(Guid conversationId, string userMessage,
+        Task<AppChatResponse> GenerateResponseAsync(Guid conversationId, string userMessage, CancellationToken cancellationToken);
+        IAsyncEnumerable<AppChatChunk> StreamResponseAsync(Guid conversationId, string userMessage,
             CancellationToken cancellationToken);
     }
 }

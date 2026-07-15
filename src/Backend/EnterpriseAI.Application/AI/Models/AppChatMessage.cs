@@ -1,8 +1,8 @@
 ﻿namespace EnterpriseAI.Application.AI.Models
 {
-    public sealed class ChatMessage
+    public sealed class AppChatMessage
     {
-        public ChatRole Role { get; init; }
+        public AppChatRole Role { get; init; }
 
         public string Content { get; init; } = string.Empty;
     }

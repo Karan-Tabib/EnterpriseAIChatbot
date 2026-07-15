@@ -15,7 +15,7 @@ using EnterpriseAI.Infrastructure.ExceptionHandling;
 using EnterpriseAI.Application.AI.Contracts;
 using EnterpriseAI.Application.AI.Prompting;
 using EnterpriseAI.Infrastructure.AI;
-using EnterpriseAI.Infrastructure.AI.Ollama;
+using EnterpriseAI.Infrastructure.AI.Ollama.DependencyInjection;
 namespace EnterpriseAI.Infrastructure.ExtensionsRegistration
 {
     public static class InfrastructureExtension
