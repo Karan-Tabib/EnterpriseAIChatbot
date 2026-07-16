@@ -6,6 +6,8 @@ using EnterpriseAI.Application.Behaviors;
 using EnterpriseAI.Application.AI.Contracts;
 using EnterpriseAI.Application.AI;
 using EnterpriseAI.Application.AI.Prompting;
+using EnterpriseAI.Application.AI.Memory;
+using EnterpriseAI.Application.AI.Prompting.PrompSectionBuilder;
 
 namespace EnterpriseAI.Application
 {
@@ -17,7 +19,7 @@ namespace EnterpriseAI.Application
             AddMediatRPipeline(services, configuration);
 
             AddAIOrchestrator(services, configuration);
-         
+
             return services;
         }
         public static IServiceCollection AddMediatRPipeline(IServiceCollection services, IConfiguration configuration)
@@ -43,8 +45,33 @@ namespace EnterpriseAI.Application
         {
 
             services.AddScoped<IAIOrchestrator, AIOrchestrator>();
+            AddPrompting(services, configuration);
+            AddMemoryManagement(services, configuration);
+
+
+
+            return services;
+        }
+
+        private static IServiceCollection AddPrompting(IServiceCollection services, IConfiguration configuration)
+        {
             services.AddScoped<IPromptBuilder, PromptBuilder>();
             services.AddSingleton<ISystemPromptProvider, DefaultSystemPromptProvider>();
+
+            services.AddScoped<IPromptSectionBuilder, SystemPromptBuilder>();
+            services.AddScoped<IPromptSectionBuilder, ConversationHistoryBuilder>();
+            services.AddScoped<IPromptSectionBuilder, SummaryPromptBuilder>();
+            services.AddScoped<IPromptSectionBuilder, RetrievedDocumentBuilder>();
+
+            return services;
+        }
+
+        private static IServiceCollection AddMemoryManagement(IServiceCollection services, IConfiguration configuration)
+        {
+
+            services.AddScoped<IMemoryManager, ConversationMemoryManager>();
+            services.AddScoped<IMemorySelectionStrategy, SlidingWindowMemoryStrategy>();
+
             return services;
         }
     }

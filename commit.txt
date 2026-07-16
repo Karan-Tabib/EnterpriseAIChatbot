@@ -1,0 +1,11 @@
+
+feat(ai): implement streaming chat pipeline using SSE
+
+Implemented
+- Integrate OllamaSharp SDK
+- Add streaming support via IAsyncEnumerable
+- Introduce AppChatChunk model
+- Implement AIOrchestrator streaming pipeline
+- Add Server-Sent Events endpoint
+- Stream responses from Ollama to clients
+- Persist assistant response after stream completion

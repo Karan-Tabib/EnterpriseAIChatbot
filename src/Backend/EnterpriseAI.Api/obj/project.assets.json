@@ -2008,7 +2008,8 @@
           "MediatR": "14.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.11",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Options": "9.0.17"
         },
         "compile": {
           "bin/placeholder/EnterpriseAI.Application.dll": {}
@@ -5524,6 +5525,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
           "Microsoft.Extensions.Http": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.17",
           "Ollama": "1.14.0",
           "OllamaSharp": "5.4.25",
           "OpenTelemetry.Api": "1.16.0",

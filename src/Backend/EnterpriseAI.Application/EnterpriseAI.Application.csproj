@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +24,6 @@
 
   <ItemGroup>
     <Folder Include="AI\Exceptions\" />
-    <Folder Include="AI\Memory\" />
     <Folder Include="AI\Services\" />
     <Folder Include="Conversations\ListConversations\" />
     <Folder Include="Observability\Metrics\" />

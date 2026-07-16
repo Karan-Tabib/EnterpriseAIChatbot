@@ -1,70 +1,57 @@
 ﻿using EnterpriseAI.Application.AI.Models;
 using EnterpriseAI.Domain;
+using EnterpriseAI.Domain.Conversations;
+
 
 namespace EnterpriseAI.Application.AI.Prompting
 {
     public sealed class PromptBuilder : IPromptBuilder
     {
-        private readonly ISystemPromptProvider _systemPromptProvider;
-
-        public PromptBuilder(ISystemPromptProvider systemPromptProvider)
+        private readonly IEnumerable<IPromptSectionBuilder> _builder;
+        public PromptBuilder(IEnumerable<IPromptSectionBuilder> builder)
         {
-            _systemPromptProvider = systemPromptProvider;
+            _builder = builder;
         }
-        public AppChatRequest Build(Conversation conversation)
+
+        public AppChatRequest Build(MemoryContext context)
         {
-            var messages = new List<AppChatMessage>();
+            ArgumentNullException.ThrowIfNull(context);
 
-            AddSystemPrompt(messages);
-            AddConversationHistory(messages, conversation);
+            var prompt = new List<AppChatMessage>();
 
-            //AddConversationSummary()
+            foreach(var builder in _builder)
+            {
+                builder.Build(context, prompt);
+            }
 
-            //AddRetrievedDocuments()
+            // Future
+            //AppendConversationHistory(prompt, context);
+            //AppendSystemPrompt(prompt);
+            // AppendConversationSummary(prompt, context);
+            // AppendRetrievedDocuments(prompt, context);
+            // AppendUserProfile(prompt, context);
+            // AppendToolResults(prompt, context);
 
-            //AddCurrentMessage()
+
+
             return new AppChatRequest
             {
-                Messages = messages
+                Messages = prompt
             };
         }
 
-        private void AddConversationHistory(List<AppChatMessage> messages, Conversation conversation)
-        {
+       
 
-            // Conversation history
-            foreach (var message in conversation.Messages)
-            {
-                messages.Add(new AppChatMessage
-                {
-                    Role = MapRole(message.Role),
-                    Content = message.Content
-                });
-            }
-        }
-
-        private void AddSystemPrompt(List<AppChatMessage> messages)
-        {
-            // System prompt
-            messages.Add(new AppChatMessage
-            {
-                Role = AppChatRole.System,
-                Content = "You are a helpful AI assistant."
-            });
-        }
-
-
-        private static AppChatRole MapRole(MessageRole role)
+        
+        public static AppChatRole MapRole(MessageRole role)
         {
             return role switch
             {
                 MessageRole.User => AppChatRole.User,
                 MessageRole.Assistant => AppChatRole.Assistant,
                 MessageRole.System => AppChatRole.System,
-                _ => throw new InvalidOperationException($"Unsupported role {role}")
+                _ => throw new InvalidOperationException($"Unsupported message role '{role}'.")
             };
         }
-
-        
     }
 }

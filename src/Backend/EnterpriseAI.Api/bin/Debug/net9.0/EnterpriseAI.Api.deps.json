@@ -1344,7 +1344,8 @@
           "MediatR": "14.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.11",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Options": "9.0.17"
         },
         "runtime": {
           "EnterpriseAI.Application.dll": {

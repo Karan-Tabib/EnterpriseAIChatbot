@@ -1,5 +1,6 @@
 ﻿using EnterpriseAI.Application.Abstractions.Persistence.Repositories;
 using EnterpriseAI.Application.AI.Contracts;
+using EnterpriseAI.Application.AI.Memory;
 using EnterpriseAI.Application.AI.Models;
 using EnterpriseAI.Application.AI.Prompting;
 using EnterpriseAI.Application.Exceptions.Conversions;
@@ -13,17 +14,20 @@ namespace EnterpriseAI.Application.AI
         private readonly IUnitOfWork _unitOfWork;
         private readonly IPromptBuilder _promptBuilder;
         private readonly IChatService _chatService;
+        private readonly IMemoryManager _memoryManager;
 
         public AIOrchestrator(
             IConversationRepository conversationRepository,
             IUnitOfWork unitOfWork,
             IPromptBuilder promptBuilder,
-            IChatService chatService)
+            IChatService chatService,
+            IMemoryManager memoryManager)
         {
             _conversationRepository = conversationRepository;
             _unitOfWork = unitOfWork;
             _promptBuilder = promptBuilder;
             _chatService = chatService;
+            _memoryManager = memoryManager;
         }
 
         public async Task<AppChatResponse> GenerateResponseAsync(Guid conversationId, string userMessage, CancellationToken cancellationToken)
@@ -37,8 +41,12 @@ namespace EnterpriseAI.Application.AI
             // Store user message
             conversation.AddUserMessage(userMessage);
 
+            //build memory context
+            var memory = await _memoryManager.BuildAsync(conversation, cancellationToken);
+
+
             // Build prompt
-            var chatRequest = _promptBuilder.Build(conversation);
+            var chatRequest = _promptBuilder.Build(memory);
 
             // Ask AI
             var chatResponse = await _chatService.SendAsync(chatRequest, cancellationToken);
@@ -69,11 +77,12 @@ namespace EnterpriseAI.Application.AI
             conversation.AddUserMessage(userMessage);
             await _unitOfWork.CommitAsync(cancellationToken);
 
+            var memory = await _memoryManager.BuildAsync(conversation, cancellationToken);
 
             // Build prompt
-            var chatRequest = _promptBuilder.Build(conversation);
+            var chatRequest = _promptBuilder.Build(memory);
 
-            
+
             // Ask AI
             var builder = new StringBuilder();
 

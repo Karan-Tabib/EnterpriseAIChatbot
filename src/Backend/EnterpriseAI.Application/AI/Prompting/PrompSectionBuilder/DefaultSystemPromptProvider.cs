@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnterpriseAI.Application.AI.Prompting
+namespace EnterpriseAI.Application.AI.Prompting.PrompSectionBuilder
 {
 
     public sealed class DefaultSystemPromptProvider : ISystemPromptProvider
@@ -22,4 +22,6 @@ namespace EnterpriseAI.Application.AI.Prompting
                """;
         }
     }
+
+
 }

@@ -97,6 +97,7 @@
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
             "Microsoft.Extensions.Http": "9.0.0",
+            "Microsoft.Extensions.Options": "9.0.17",
             "Ollama": "1.14.0",
             "OllamaSharp": "5.4.25",
             "OpenTelemetry.Api": "1.16.0",
@@ -217,6 +218,11 @@
               "target": "Package",
               "version": "[10.0.9, )",
               "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.17, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -234,6 +240,7 @@
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
             "Microsoft.Extensions.Http": "9.0.0",
+            "Microsoft.Extensions.Options": "9.0.17",
             "Ollama": "1.14.0",
             "OllamaSharp": "5.4.25",
             "OpenTelemetry.Api": "1.16.0",
@@ -330,6 +337,7 @@
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
             "Microsoft.Extensions.Http": "9.0.0",
+            "Microsoft.Extensions.Options": "9.0.17",
             "Ollama": "1.14.0",
             "OllamaSharp": "5.4.25",
             "OpenTelemetry.Api": "1.16.0",
@@ -422,6 +430,7 @@
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
             "Microsoft.Extensions.Http": "9.0.0",
+            "Microsoft.Extensions.Options": "9.0.17",
             "Ollama": "1.14.0",
             "OllamaSharp": "5.4.25",
             "OpenTelemetry.Api": "1.16.0",
@@ -573,6 +582,7 @@
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
             "Microsoft.Extensions.Http": "9.0.0",
+            "Microsoft.Extensions.Options": "9.0.17",
             "Ollama": "1.14.0",
             "OllamaSharp": "5.4.25",
             "OpenTelemetry.Api": "1.16.0",
@@ -665,6 +675,7 @@
             "Microsoft.Extensions.Configuration.Abstractions": "9.0.17",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
             "Microsoft.Extensions.Http": "9.0.0",
+            "Microsoft.Extensions.Options": "9.0.17",
             "Ollama": "1.14.0",
             "OllamaSharp": "5.4.25",
             "OpenTelemetry.Api": "1.16.0",

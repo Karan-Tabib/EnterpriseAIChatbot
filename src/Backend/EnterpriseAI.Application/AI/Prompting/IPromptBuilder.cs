@@ -1,17 +1,15 @@
 ﻿using EnterpriseAI.Application.AI.Models;
-using EnterpriseAI.Domain;
+using EnterpriseAI.Domain.Conversations;
 
 namespace EnterpriseAI.Application.AI.Prompting
 {
     public interface IPromptBuilder
     {
-        AppChatRequest Build(Conversation conversation);
+        AppChatRequest Build(MemoryContext memory);
     }
 
     public interface ISystemPromptProvider
     {
         string GetPrompt();
     }
-
-    
 }

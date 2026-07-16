@@ -3,6 +3,94 @@
   "WorkspaceRootPath": "D:\\Demos\\AI\\EnterpriseAIAssistant\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\conversationhistorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\conversationhistorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\promptbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\promptbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\defaultsystempromptprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\defaultsystempromptprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\systempromptbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\systempromptbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\ipromptsectionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\ipromptsectionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\ipromptbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\ipromptbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\retrieveddocumentbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\prompting\\prompsectionbuilder\\retrieveddocumentbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\contracts\\iaiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\contracts\\iaiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\contracts\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\contracts\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\aiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\aiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\memory\\imemorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\memory\\imemorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\memory\\slidingwindowmemorystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\memory\\slidingwindowmemorystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\memory\\conversationmemorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\memory\\conversationmemorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\memory\\imemoryselectionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\memory\\imemoryselectionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\memory\\memoryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\memory\\memoryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1D5382-7491-4661-824F-B082E56832C1}|src\\Backend\\EnterpriseAI.Domain\\EnterpriseAI.Domain.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.domain\\conversations\\memorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1D5382-7491-4661-824F-B082E56832C1}|src\\Backend\\EnterpriseAI.Domain\\EnterpriseAI.Domain.csproj|solutionrelative:src\\backend\\enterpriseai.domain\\conversations\\memorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1D5382-7491-4661-824F-B082E56832C1}|src\\Backend\\EnterpriseAI.Domain\\EnterpriseAI.Domain.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.domain\\conversations\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1D5382-7491-4661-824F-B082E56832C1}|src\\Backend\\EnterpriseAI.Domain\\EnterpriseAI.Domain.csproj|solutionrelative:src\\backend\\enterpriseai.domain\\conversations\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.api\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|solutionrelative:src\\backend\\enterpriseai.api\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.api\\common\\sse\\ssewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|solutionrelative:src\\backend\\enterpriseai.api\\common\\sse\\ssewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E380DA04-8E67-480F-96EC-C20B370953DD}|src\\Backend\\EnterpriseAI.Infrastructure\\EnterpriseAI.Infrastructure.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.infrastructure\\exceptionhandling\\sqlserverexceptiontranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E380DA04-8E67-480F-96EC-C20B370953DD}|src\\Backend\\EnterpriseAI.Infrastructure\\EnterpriseAI.Infrastructure.csproj|solutionrelative:src\\backend\\enterpriseai.infrastructure\\exceptionhandling\\sqlserverexceptiontranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.api\\contracts\\streammessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|solutionrelative:src\\backend\\enterpriseai.api\\contracts\\streammessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\conversations\\streammessage\\streammessagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\conversations\\streammessage\\streammessagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\contracts\\iaiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\contracts\\iaiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.api\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|solutionrelative:src\\backend\\enterpriseai.api\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\conversations\\sendmessage\\sendmessagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +127,8 @@
       "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\conversations\\sendmessage\\sendmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.api\\common\\sse\\ssewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C42CF7-7B1F-4BEF-A590-54476DB394BB}|src\\Backend\\EnterpriseAI.Api\\EnterpriseAI.Api.csproj|solutionrelative:src\\backend\\enterpriseai.api\\common\\sse\\ssewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\models\\appchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\models\\appchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\aiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\aiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.application\\ai\\contracts\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922CE58-34AD-47A6-9799-D6652EFA850B}|src\\Backend\\EnterpriseAI.Application\\EnterpriseAI.Application.csproj|solutionrelative:src\\backend\\enterpriseai.application\\ai\\contracts\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E380DA04-8E67-480F-96EC-C20B370953DD}|src\\Backend\\EnterpriseAI.Infrastructure\\EnterpriseAI.Infrastructure.csproj|d:\\demos\\ai\\enterpriseaiassistant\\src\\backend\\enterpriseai.infrastructure\\ai\\ollama\\ollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,50 +174,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 615,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StreamMessageHandler.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ConversationHistoryBuilder.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\ConversationHistoryBuilder.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\ConversationHistoryBuilder.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\ConversationHistoryBuilder.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\ConversationHistoryBuilder.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T10:00:33.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StreamMessageCommand.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:57:27.793Z",
+              "WhenOpened": "2026-07-16T08:09:25.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StreamMessageResult.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T10:00:25.53Z",
+              "WhenOpened": "2026-07-16T08:06:52.629Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromptBuilder.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PromptBuilder.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PromptBuilder.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PromptBuilder.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PromptBuilder.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T12:07:42.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SystemPromptBuilder.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\SystemPromptBuilder.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\SystemPromptBuilder.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\SystemPromptBuilder.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\SystemPromptBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:00:05.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefaultSystemPromptProvider.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\DefaultSystemPromptProvider.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\DefaultSystemPromptProvider.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\DefaultSystemPromptProvider.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\DefaultSystemPromptProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:40:00.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPromptSectionBuilder.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptSectionBuilder.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptSectionBuilder.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptSectionBuilder.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptSectionBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:10:16.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPromptBuilder.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptBuilder.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptBuilder.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptBuilder.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\IPromptBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T12:07:40.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RetrievedDocumentBuilder.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\RetrievedDocumentBuilder.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\RetrievedDocumentBuilder.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\RetrievedDocumentBuilder.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Prompting\\PrompSectionBuilder\\RetrievedDocumentBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:06:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IAIOrchestrator.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Contracts\\IAIOrchestrator.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Contracts\\IAIOrchestrator.cs",
@@ -161,155 +310,21 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StreamMessageRequest.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:35:53.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConversationsController.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAUwF8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:32:47.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SendMessageCommand.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:34:19.345Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SendMessageHandler.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T08:34:26.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SendMessageResult.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:40:17.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StreamMessageValidator.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T10:00:52.628Z",
+              "WhenOpened": "2026-07-15T12:05:58.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SendMessageValidator.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T10:01:06.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SseWriter.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwDkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:49:36.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppChatRequest.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T07:47:05.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OllamaChatService.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAswD4AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T07:07:33.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OllamaChatMapper.cs",
-              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
-              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
-              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T07:38:48.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "IChatService.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Contracts\\IChatService.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Contracts\\IChatService.cs",
@@ -322,20 +337,310 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMemoryManager.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemoryManager.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemoryManager.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemoryManager.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T11:52:57.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "SlidingWindowMemoryStrategy.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\SlidingWindowMemoryStrategy.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\SlidingWindowMemoryStrategy.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\SlidingWindowMemoryStrategy.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\SlidingWindowMemoryStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:08:22.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IMemorySelectionStrategy.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemorySelectionStrategy.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemorySelectionStrategy.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemorySelectionStrategy.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\IMemorySelectionStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:08:02.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MemoryOptions.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\MemoryOptions.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\MemoryOptions.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\MemoryOptions.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\MemoryOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:05:51.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AIOrchestrator.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\AIOrchestrator.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\AIOrchestrator.cs",
               "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\AIOrchestrator.cs",
               "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\AIOrchestrator.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAIAwwFIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T07:06:42.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConversationMemoryManager.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\ConversationMemoryManager.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\ConversationMemoryManager.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\ConversationMemoryManager.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Memory\\ConversationMemoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T12:05:14.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "MemoryContext.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Domain\\Conversations\\MemoryContext.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Domain\\Conversations\\MemoryContext.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Domain\\Conversations\\MemoryContext.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Domain\\Conversations\\MemoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T11:50:19.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Domain\\Conversations\\Conversation.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Domain\\Conversations\\Conversation.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Domain\\Conversations\\Conversation.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Domain\\Conversations\\Conversation.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAApwCwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:53:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConversationsController.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Api\\Controllers\\ConversationsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAIAwwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T09:32:47.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SseWriter.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Api\\Common\\Sse\\SseWriter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T09:49:36.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SqlServerExceptionTranslator.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\ExceptionHandling\\SqlServerExceptionTranslator.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\ExceptionHandling\\SqlServerExceptionTranslator.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\ExceptionHandling\\SqlServerExceptionTranslator.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Infrastructure\\ExceptionHandling\\SqlServerExceptionTranslator.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvyoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:18:15.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StreamMessageHandler.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:00:33.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StreamMessageCommand.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T09:57:27.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StreamMessageResult.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:00:25.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StreamMessageRequest.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Api\\Contracts\\StreamMessageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T09:35:53.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SendMessageCommand.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T09:34:19.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SendMessageHandler.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T08:34:26.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SendMessageResult.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T09:40:17.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StreamMessageValidator.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\StreamMessage\\StreamMessageValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:00:52.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SendMessageValidator.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\Conversations\\SendMessage\\SendMessageValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:01:06.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppChatRequest.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T07:47:05.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OllamaChatService.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswD4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T07:07:33.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OllamaChatMapper.cs",
+              "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
+              "ToolTip": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
+              "RelativeToolTip": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\OllamaChatMapper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T07:38:48.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "FakeChatService.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\FakeChatService.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\FakeChatService.cs",
@@ -348,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "AppSendMessageResult.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppSendMessageResult.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppSendMessageResult.cs",
@@ -361,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "AppChatResponse.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatResponse.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatResponse.cs",
@@ -374,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "AppChatChunk.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatChunk.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatChunk.cs",
@@ -387,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "AppChatMessage.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatMessage.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatMessage.cs",
@@ -400,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "AppChatRole.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRole.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Application\\AI\\Models\\AppChatRole.cs",
@@ -412,12 +717,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "OllamaServiceCollectionExtensions.cs",
               "DocumentMoniker": "D:\\Demos\\AI\\EnterpriseAIAssistant\\src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\DependencyInjection\\OllamaServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\Backend\\EnterpriseAI.Infrastructure\\AI\\Ollama\\DependencyInjection\\OllamaServiceCollectionExtensions.cs",
@@ -427,18 +728,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T07:22:40.232Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
